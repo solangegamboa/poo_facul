@@ -3,7 +3,7 @@ public class TesteCliente
     public static void main(String[] args) {
       //instanciando a classe
       //Nome da classe + nome da variavel = instancia nova objeto
-      Cliente cliente = new Cliente();
+      Cliente1 cliente = new Cliente1();
       //objeto em memória aguardando os valores dos atributos
       //atribuir valores
       cliente.agencia = 1234;
@@ -14,6 +14,7 @@ public class TesteCliente
 
       cliente.sacarContaCorrente(20.00);
       int agenciaDoCliente = cliente.informarAgencia();
+      // Metodo nativo para imprimir no console
       System.out.println(agenciaDoCliente);
     }
   }

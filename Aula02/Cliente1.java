@@ -1,5 +1,5 @@
 // nome da classe em singular que faça sentido
-public class Cliente 
+public class Cliente1 
 {
   // atributos declarado tipo de dado + nome do atributo
   int agencia;

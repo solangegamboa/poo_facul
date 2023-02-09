@@ -1,0 +1,33 @@
+/** 
+   * Assinatura do método é composta de:
+   * Nome do método (sempre uma ação)
+   * Tipo de retorno (int, void, double..)
+   * Parâmetros de entrada (argumentos necessários de fora pra dentro do método)
+   * Modificador de acesso (public, private, protected)
+   */
+  public int informarAgencia() 
+  {
+    return this.agencia;
+  }
+
+Poliformismo é a capacidade que um objeto tem de reagir diferentes formas a mesma mensagem
+4 tipos de métodos polimórficos
+    Estático ou Sbrecarga - mesmo tipo de retorno, mesmo nome do método porém diferentes parametros de entrada, 
+                            considera a quantidade de parametros e os tipos para diferenciar um método do outro
+    Dinamico ou Sobrescrita -  
+    Inclusao
+    Paramétrico
+
+
+Herança (extends)
+Implementar uma classe mãe dentro de uma classe mais especializada
+- Todos os atributos e métodos da classe mãe estão presentes na classe filha sem precisar reescrever. (public e protected)
+Classe A - Clientes - generalizada
+Classe B - Clientes PJ (tudo da classe clientes + CNPJ) - especializada diferente de C
+Classe C - Clientes PG (tudo da classe clientes + CPF) - especializada diferente da B
+
+Interface (implements)
+Assinatura do método sem a implementação - implementação fica na classe.
+Interface é o contrato, obrigatoriamente implementar os metodos.
+Interface garante que tipos de implementaçÕes diferentes ainda mantenham o padrão de contrato
+Varias classes podem implementar a mesma interface 
