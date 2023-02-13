@@ -9,4 +9,6 @@ public class Cliente
     {
         this.saldoContaCorrente -= valor;
     }
+
+    public abstract double obterSaldo();
  }

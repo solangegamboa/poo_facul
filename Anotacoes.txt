@@ -31,3 +31,10 @@ Assinatura do método sem a implementação - implementação fica na classe.
 Interface é o contrato, obrigatoriamente implementar os metodos.
 Interface garante que tipos de implementaçÕes diferentes ainda mantenham o padrão de contrato
 Varias classes podem implementar a mesma interface 
+
+Classes Abstratas
+- rever vídeo
+Obriga uma classe filha a implementar o método;
+
+Método abstrato
+Garante que determinado método 
