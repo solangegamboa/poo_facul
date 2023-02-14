@@ -36,5 +36,9 @@ Classes Abstratas
 - rever vídeo
 Obriga uma classe filha a implementar o método;
 
-Método abstrato
-Garante que determinado método 
+Método abstrato - tem que estar dentro de uma classe abstrata
+Garante que determinado método ira ser implementado nas extends classes
+
+Construtores:
+Método construtor é quando está instanciando/construindo um objeto e precisa passar os parâmetros bassicos pra
+criar o objeto.

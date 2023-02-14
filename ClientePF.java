@@ -2,6 +2,7 @@ public class ClientePF extends Cliente
 {
     public String nome;
     public String cpf;
+    private double saldo;
 
     public static void main(String[] args) {
         ClientePF objClientePF = new ClientePF();
@@ -15,5 +16,10 @@ public class ClientePF extends Cliente
     public void efetuarEmprestimoPF(double valor) 
     {
         super.saldoContaCorrente += valor;
+    }
+
+    @Override
+    public double obterSaldo() {
+        return this.saldo;
     }
 }
